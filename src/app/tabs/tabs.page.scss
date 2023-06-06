@@ -1,0 +1,11 @@
+// :host{
+   
+// }
+
+:host(.tab-selected){
+    color: #ffc107;
+}
+
+ion-ripple-effect{
+    --ripple-color: #dc3545; // cambiar el color cuando se le hace clik a uno de los tabs que hay 
+}

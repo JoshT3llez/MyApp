@@ -1,0 +1,77 @@
+.lugar{
+    margin-left: 90px;
+}
+
+.speed-marker {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  #title{
+    margin: 10px 20px;
+  }
+
+  #icon{
+    float: right;
+    margin: 10px 20px;
+  }
+
+  .text{
+    margin-top: -35px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .active-icon {
+    color: red; /* Color del icono cuando el toggle está activo */
+  }
+  
+  .inactive-icon {
+    color: gray; /* Color del icono cuando el toggle está inactivo */
+  }
+
+  .position{
+    margin-top: 40px;
+    text-align: center;
+}
+  ion-toggle{
+
+  --track-background: #ddd;
+  --track-background-checked: #ddd;  
+
+  --handle-background: #6720a5; /* Color del toggle está inactivo */
+  --handle-background-checked: #f45f4f ; /* Color del toggle está activo */
+
+  --handle-width: 25px;
+  --handle-height: 27px;
+  --handle-max-height: auto;
+  --handle-spacing: 6px;
+
+  --handle-border-radius: 4px;
+  --handle-box-shadow: none;
+  }
+
+  ion-toggle::part(track) {
+    height: 10px;
+    width: 65px;
+  
+    /* para que los de IOS puedan ver el track del toggle */
+    overflow: visible;
+  }
+  

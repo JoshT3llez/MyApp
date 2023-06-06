@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tool">
+    <ion-title id="title">
+      Bienvenido shikamaru
+      <ion-icon class="lugar" name="exit-outline" [routerLink]="['/login']" id="icon"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+  <br>
+  <div  id="container">
+    <ion-icon name="speedometer-outline"class="speed-marker" [ngClass]="{'active-icon': toggleState, 'inactive-icon': !toggleState}" id="img-a"></ion-icon>
+    <p class="text" [hidden]="!toggleState">20.00 N</p>
+  </div>
+  
+  <div class="position">
+    <ion-toggle [(ngModel)]="toggleState" labelPlacement="end">Encender</ion-toggle><br /><br />
+    
+  </div>
+    
+</ion-content>

@@ -1,0 +1,29 @@
+#title{
+    margin: 10px 20px;
+  }
+
+  #icon{
+    float: right;
+    margin: 10px 20px;
+  }
+
+  #user{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  #card{
+    width: 500px;
+  }

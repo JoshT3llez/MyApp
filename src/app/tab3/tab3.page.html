@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title id="title">
+      Mi Perfil
+      <ion-icon id="icon" name="exit-outline"  [routerLink]="['/login']"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <div id="container">
+    <ion-icon class="ion-icon" name="person-circle-outline" id="user"></ion-icon>  
+  </div>
+
+  <div id="container">
+    <div class="card shadow-lg p-3 mb-5 bg-body roundeds" id="card">
+      <ion-item  color="naranja">
+        <ion-label>Nombre: Tobey</ion-label>
+      </ion-item>
+  
+      <ion-item  color="naranja">
+        <ion-label>Correo: amlobb123@gmail.com</ion-label>
+      </ion-item>
+  
+      <ion-item  color="naranja">
+        <ion-label>Telefono: +52 272 119 3655</ion-label>
+      </ion-item>
+    </div>
+  </div>
+    
+</ion-content>
